@@ -1,1 +1,1 @@
-[노션 공부노트 백준 페이지](https://synonymous-island-173.notion.site/Baekjoon-aa38432c09b84ad4843a4cc8ebd4d9e4)
+[노션 공부노트 백준 페이지 (코드 설명)](https://synonymous-island-173.notion.site/Baekjoon-aa38432c09b84ad4843a4cc8ebd4d9e4)
