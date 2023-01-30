@@ -20,19 +20,17 @@ for (let k = 1; k < input.length; k++) {
     }
   }
   for (let i = 0; i < isPrimeArr.length; i++) {
-    if(isPrimeArr[i]) {
+    if (isPrimeArr[i]) {
       primeNums.push(i);
     }
   }
   for (let i = 0; i < primeNums.length; i++) {
-    if (primeNums.includes(n-primeNums[i])) {
-      partition.push([n-primeNums[i], primeNums[i], n-primeNums[i]*2]);
+    if (primeNums.includes(n - primeNums[i])) {
+      partition.push([n - primeNums[i], primeNums[i], n - primeNums[i] * 2]);
     }
   }
-  for (let i = 0; i < partition.length; i++) {
-    while (partition[i][2] > 0) {
-      partition.shift();
-    }
+  while (partition[0][2] > 0) {
+    partition.shift();
   }
-  console.log(partition[0][0] + ' ' + partition[0][1]);
+  console.log(partition[0][0] + " " + partition[0][1]);
 }
