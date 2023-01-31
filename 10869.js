@@ -1,10 +1,21 @@
-const input = require('fs').readFileSync('dev/stdin').toString().split(' ');
+const fs = require("fs");
+const input = fs.readFileSync("./input.txt").toString().trim().split('\n');
+let arr = [];
+let max = 0;
+let locationMax = '';
 
-const A = parseInt(input[0]);
-const B = parseInt(input[1]);
+for (let i = 0; i < 9; i++) {
+  arr.push(input[i].split(" ").map(Number));
+}
 
-console.log(A + B);
-console.log(A - B);
-console.log(A * B);
-console.log(Math.floor(A / B));
-console.log(A % B);
+for (let i = 0; i < 9; i++) {
+  for (let j = 0; j < 9; j++) {
+    if (max <= arr[i][j]) {
+      max = arr[i][j];
+      locationMax = (i+1) + ' ' + (j+1);
+    }
+  }
+}
+
+console.log(max);
+console.log(locationMax);
