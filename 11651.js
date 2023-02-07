@@ -7,7 +7,7 @@ for (let i = 0; i < N; i++) {
   arr.push(input[i].split(" ").map(Number));
 }
 
-arr.sort(function(a, b) {
+arr.sort(function (a, b) {
   if (a[1] == b[1]) {
     return a[0] - b[0];
   } else {
@@ -16,7 +16,7 @@ arr.sort(function(a, b) {
 });
 
 for (let i = 0; i < N; i++) {
-  arr[i] = arr[i].join(' ');
+  arr[i] = arr[i].join(" ");
 }
 
-console.log(arr.join('\n'));
+console.log(arr.join("\n"));
