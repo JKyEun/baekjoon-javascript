@@ -1,2 +1,2 @@
 
-console.log([...inputArr])
+    break;
