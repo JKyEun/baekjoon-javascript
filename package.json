@@ -1,0 +1,25 @@
+{
+  "name": "baekjoon",
+  "version": "1.0.0",
+  "description": "[노션 공부노트 백준 페이지 (코드 설명)](https://synonymous-island-173.notion.site/Baekjoon-aa38432c09b84ad4843a4cc8ebd4d9e4)",
+  "main": "1000.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JKyEun/baekjoon-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JKyEun/baekjoon-javascript/issues"
+  },
+  "homepage": "https://github.com/JKyEun/baekjoon-javascript#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
