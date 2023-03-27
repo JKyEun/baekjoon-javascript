@@ -8,13 +8,13 @@ for (let i = 0; i < caseNum; i++) {
   const queueObjArr = [];
   let maxNum;
   let printedNum;
-  let bool = true;
   let count = 0;
 
   for (let j = 0; j < N; j++) {
     queueObjArr.push({ value: queue[j], index: j });
   }
-  while (bool) {
+
+  while (true) {
     maxNum = Math.max(...queue);
 
     if (queue[0] >= maxNum) {
@@ -29,7 +29,7 @@ for (let i = 0; i < caseNum; i++) {
 
     if (printedNum === M) {
       console.log(count);
-      bool = false;
+      break;
     }
   }
 }
