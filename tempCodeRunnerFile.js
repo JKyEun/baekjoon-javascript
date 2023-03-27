@@ -1,3 +1,2 @@
-input.forEach((i) => {
-//   sum += i;
-// });
+
+console.log(N, K);
