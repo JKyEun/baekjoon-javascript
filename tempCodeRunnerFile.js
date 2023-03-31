@@ -1,2 +1,2 @@
 
-console.log(N, K);
+};
