@@ -1,8 +1,9 @@
 const fs = require('fs');
 const input = fs.readFileSync('./dev/stdin').toString().trim().split('\n');
 
-let [N, M] = input.shift().split(' ').map(Number);
-const idxArr = input[0].split(' ').map(Number);
+let N = input[0].split(' ').map(Number)[0];
+const M = input[0].split(' ').map(Number)[1];
+const idxArr = input[1].split(' ').map(Number);
 
 const queue = [];
 let answer = 0;
