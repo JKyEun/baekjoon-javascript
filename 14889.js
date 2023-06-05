@@ -47,6 +47,3 @@ function dfs(cnt) {
 dfs(0);
 
 console.log(min);
-
-dfs(0);
-console.log(min);
