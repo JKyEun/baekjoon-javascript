@@ -7,13 +7,13 @@ const rl = readline.createInterface({
 
 let input = [];
 
-rl.on('line', line => {
-  input = line.split(' ').map(el => parseInt(el)); // 1 2 3 4
+rl.on('line', (line) => {
+  input = line.split(' ').map((el) => parseInt(el)); // 1 2 3 4
   rl.close();
 });
 
 rl.on('close', () => {
-  input.forEach(el => {
+  input.forEach((el) => {
     console.log(el);
   });
   process.exit();
